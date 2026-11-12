@@ -1,0 +1,11 @@
+source,metric,value,uncertainty
+Table 5 single checkpoint RGR-Net,PSNR,31.58,
+Table 5 single checkpoint RGR-Net,SSIM,0.912,
+Table 9 five-seed RGR-Net,PSNR,31.42,0.22
+Table 9 five-seed RGR-Net,SSIM,0.901,0.018
+Table 5 UDCN,PSNR,25.21,
+Table 5 UDCN,SSIM,0.739,
+Table 5 RGR-Net mAP@0.5,mAP50,82.6,
+Table 5 UDCN mAP@0.5,mAP50,72.4,
+F16 prospective factorial target,PSNR,31.58,
+F16 prospective factorial target,SSIM,0.912,

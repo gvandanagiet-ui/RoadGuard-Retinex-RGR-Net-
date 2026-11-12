@@ -1,0 +1,15 @@
+{
+  "title": "RoadGuard-Retinex evaluation and reproducibility protocol",
+  "status": "CONFIGURATION PROPOSAL (expected) — do not describe as executed",
+  "seeds": [0,1,2,3,4],
+  "train_crop_hw": [256,256],
+  "inference_benchmark_hw": [[256,256],[400,600]],
+  "batch_size_benchmark": 1,
+  "camera_heldout_plan": {"independent_source_groups": 3,"minimum_images_per_group":100,"evidence":"expected"},
+  "factorial_definition": {"G":"independent correction/denoising gates vs shared","E":"glare-shadow exposure target vs neutral","S":"structure preservation regularizer on/off","C":"condition-perturbation consistency on/off","cells":16,"seeds_per_cell":5},
+  "training_jobs_plan": {"factorial":80,"targeted_controls":15,"matched_rgr_udcn":10,"total":105,"evidence":"expected"},
+  "detector_protocol": {"primary_model":"yolov8s.pt COCO-pretrained (expected)","frozen":true,"input_hw":[640,640],"confidence_for_f1":0.25,"confidence_floor_for_ap":0.001,"nms_iou":0.50,"matching_iou":0.50,"class_mapping":"must be verified against ground-truth categories"},
+  "statistical_protocol": {"run_level_95pct_t_df":4,"multiple_test_family":["PSNR","SSIM","LPIPS","NIQE","mAP@0.5"],"adjustment":"Holm","alpha":0.05,"pairing":"matched seeds and exactly identical held-out evaluation IDs"},
+  "loss_weights_author_reported": {"color":0.05,"noise":0.30,"structure":0.15,"consistency":0.05},
+  "reproducibility_rule":"Never calculate p values, CIs, per-camera scores, or ablation effects from expected target centers. Actual run-level measurements and original checkpoints are required."
+}

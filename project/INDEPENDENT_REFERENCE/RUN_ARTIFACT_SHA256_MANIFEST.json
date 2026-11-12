@@ -1,0 +1,171 @@
+{
+  "classification": "diagnostic_software_only",
+  "completed_reference_seed_runs": 5,
+  "completed_shared_gate_proxy_seed_runs": 5,
+  "research_valid_original_model_training_runs": 0,
+  "prospective_reviewer_model_training_runs": 105,
+  "prospective_ablations_not_run": 95,
+  "source_original_figures": "preserved in revised manuscript",
+  "run_artifacts": [
+    {
+      "path": "smoke_evidence/NOT_FOR_PAPER_RESULTS.txt",
+      "sha256": "362696a8916af9526f900f827a4b6e22304d68e384139354e0a2a1c7b8c2efe1",
+      "bytes": 274
+    },
+    {
+      "path": "smoke_evidence/new_training_runs_DIAGNOSTIC_ONLY.csv",
+      "sha256": "ecf8d01d41447518ec36d07001be8acbbd3ad7aacb232d095edf4be7867a0115",
+      "bytes": 1354
+    },
+    {
+      "path": "smoke_evidence/reference_rgr/seed_0/best_checkpoint.pt",
+      "sha256": "3166a948e664673fce710bb19adec91f8b232909721f075fe9eaf0d8118212bf",
+      "bytes": 20353
+    },
+    {
+      "path": "smoke_evidence/reference_rgr/seed_0/loss_log.csv",
+      "sha256": "9f2892d9ebceff7145417accc0d240ebe99c464b0dd7db21ac28a88a1c843f58",
+      "bytes": 89
+    },
+    {
+      "path": "smoke_evidence/reference_rgr/seed_0/run_manifest.json",
+      "sha256": "1bc18780156b1d0afd0b212f9ab7990b632aaa06f89e87dfc8e2402e8374ef73",
+      "bytes": 1250
+    },
+    {
+      "path": "smoke_evidence/reference_rgr/seed_1/best_checkpoint.pt",
+      "sha256": "a6fa9c3f134d52518e26ea303df705ea286763bc2a318780b1334ccc1f01f38f",
+      "bytes": 20353
+    },
+    {
+      "path": "smoke_evidence/reference_rgr/seed_1/loss_log.csv",
+      "sha256": "0d13682140d9d5910d37ada4ab2ec3c32ee56d397947413ee5aaeae6416457fd",
+      "bytes": 88
+    },
+    {
+      "path": "smoke_evidence/reference_rgr/seed_1/run_manifest.json",
+      "sha256": "db110edd86da9ffbb0a2ca30b1c02441b8aba31b143f47af6a79521cca650d87",
+      "bytes": 1250
+    },
+    {
+      "path": "smoke_evidence/reference_rgr/seed_2/best_checkpoint.pt",
+      "sha256": "6e9c2392aafa9868fa8027797a25a21925cb344cb8da4560190b6c593b852080",
+      "bytes": 20353
+    },
+    {
+      "path": "smoke_evidence/reference_rgr/seed_2/loss_log.csv",
+      "sha256": "8e11839894c13b12d69b10f2dd3083ff864e8d66b4ada2a0c766f2a92dc05127",
+      "bytes": 87
+    },
+    {
+      "path": "smoke_evidence/reference_rgr/seed_2/run_manifest.json",
+      "sha256": "4e37e3e211e60e322f8bbf7aeb37330854808d13ed8ca3eb94776e64ad5a151b",
+      "bytes": 1250
+    },
+    {
+      "path": "smoke_evidence/reference_rgr/seed_3/best_checkpoint.pt",
+      "sha256": "0906ecfeba3b49cf5315a27b9072408f25afda06cee45292d10a49023a599842",
+      "bytes": 20353
+    },
+    {
+      "path": "smoke_evidence/reference_rgr/seed_3/loss_log.csv",
+      "sha256": "37fad950a65cb51f261b2b7b215c8d1a25ce6cc53627f6277437050ef070da81",
+      "bytes": 86
+    },
+    {
+      "path": "smoke_evidence/reference_rgr/seed_3/run_manifest.json",
+      "sha256": "4ad8ec28a330f372fbd1bd0e749b77ec44d8cecdae5c7015ba1e7466efd05986",
+      "bytes": 1250
+    },
+    {
+      "path": "smoke_evidence/reference_rgr/seed_4/best_checkpoint.pt",
+      "sha256": "e719cb7ffb07f05ec405daa990a894742a927a1006c05ec193149bf15af96e8e",
+      "bytes": 20353
+    },
+    {
+      "path": "smoke_evidence/reference_rgr/seed_4/loss_log.csv",
+      "sha256": "0f2fd04cc93fa6ea6c362e5438b7efdb3e5646f2526271ff2f11a58a958bc967",
+      "bytes": 87
+    },
+    {
+      "path": "smoke_evidence/reference_rgr/seed_4/run_manifest.json",
+      "sha256": "fecaccef87649edb689dea0cb41955b34e5c86343ae6b7133eac7875893e605d",
+      "bytes": 1251
+    },
+    {
+      "path": "smoke_evidence/reference_shared_proxy/seed_0/best_checkpoint.pt",
+      "sha256": "dca029d41adb8f3890fadf4ea86fad0c8ebd19fad4ef1200cd965d3d6168f9db",
+      "bytes": 19959
+    },
+    {
+      "path": "smoke_evidence/reference_shared_proxy/seed_0/loss_log.csv",
+      "sha256": "05a6a78cbe3b2aac935e7277a78e5ed40267f2480ca42cdad154563018611eb8",
+      "bytes": 97
+    },
+    {
+      "path": "smoke_evidence/reference_shared_proxy/seed_0/run_manifest.json",
+      "sha256": "3d889e243396c19c40167a7f23d3bbbe25ac5b125111dc5847a8bb2d65c79ba8",
+      "bytes": 1268
+    },
+    {
+      "path": "smoke_evidence/reference_shared_proxy/seed_1/best_checkpoint.pt",
+      "sha256": "33d381af629b7a9b0b27ad12ac605334b61bdbbf1e9df6b74b3cf920334763b7",
+      "bytes": 19959
+    },
+    {
+      "path": "smoke_evidence/reference_shared_proxy/seed_1/loss_log.csv",
+      "sha256": "5a25733d942cb996a06fb7ef14f9161f86f4b85df38197aa2e514476bc72351a",
+      "bytes": 97
+    },
+    {
+      "path": "smoke_evidence/reference_shared_proxy/seed_1/run_manifest.json",
+      "sha256": "b682cca9f9d8744b82717a704d0810a4bc7d3275a055e07d19b9a2f4bad25571",
+      "bytes": 1269
+    },
+    {
+      "path": "smoke_evidence/reference_shared_proxy/seed_2/best_checkpoint.pt",
+      "sha256": "4863a0cf7712bffb6aa79d3db200dd8f9f9cf0b1893f69fd3558c7e9f47ab2de",
+      "bytes": 19959
+    },
+    {
+      "path": "smoke_evidence/reference_shared_proxy/seed_2/loss_log.csv",
+      "sha256": "35ff66e5fc5e03647d7e65ef869f4ac661bd999e78d352e63f607d5b1f93b527",
+      "bytes": 97
+    },
+    {
+      "path": "smoke_evidence/reference_shared_proxy/seed_2/run_manifest.json",
+      "sha256": "028edc168a925b4e3b4be8839dc40ba0824c386660b661174d592d1628c500c6",
+      "bytes": 1269
+    },
+    {
+      "path": "smoke_evidence/reference_shared_proxy/seed_3/best_checkpoint.pt",
+      "sha256": "a584ac771e8ad51d7360e96fff618e4ee9dbf344cbf03eed7a9a5a1f5ecac9bb",
+      "bytes": 19959
+    },
+    {
+      "path": "smoke_evidence/reference_shared_proxy/seed_3/loss_log.csv",
+      "sha256": "70377b38ad2d52c6c3a1220272ae0b053031c569dd0020ff2cbdecd9a7c0ff5d",
+      "bytes": 97
+    },
+    {
+      "path": "smoke_evidence/reference_shared_proxy/seed_3/run_manifest.json",
+      "sha256": "eb3590450b4b6c405a590fa0103dc334b964d8585085c2174c7d51940a758cff",
+      "bytes": 1268
+    },
+    {
+      "path": "smoke_evidence/reference_shared_proxy/seed_4/best_checkpoint.pt",
+      "sha256": "fd875fc13ef6a29bc0b960aafb507639be6c3efe58829f46af98382dc549e308",
+      "bytes": 19959
+    },
+    {
+      "path": "smoke_evidence/reference_shared_proxy/seed_4/loss_log.csv",
+      "sha256": "8bd34ce1faca613da43e84eb2fa061854a0ca0a20a7cf23759e808010cc64a8e",
+      "bytes": 95
+    },
+    {
+      "path": "smoke_evidence/reference_shared_proxy/seed_4/run_manifest.json",
+      "sha256": "fd8f982898b8f4bd5b8e4a1e3c0bc44c4f075b61c37e420d3b393a73b1999e49",
+      "bytes": 1268
+    }
+  ]
+}

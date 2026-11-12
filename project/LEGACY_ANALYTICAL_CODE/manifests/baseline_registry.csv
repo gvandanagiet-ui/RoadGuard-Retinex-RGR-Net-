@@ -1,0 +1,1 @@
+method,variant,source_commit,checkpoint_sha256,training_dataset,training_regime,resize_policy,checkpoint_selection,param_count,flops,latency_ms,runtime

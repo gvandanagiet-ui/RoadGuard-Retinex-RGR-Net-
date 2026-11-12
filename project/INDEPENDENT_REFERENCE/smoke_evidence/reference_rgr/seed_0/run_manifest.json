@@ -1,0 +1,43 @@
+{
+  "architecture_notice": "INDEPENDENT REFERENCE IMPLEMENTATION; NOT ORIGINAL RGR-NET",
+  "evidence_class": "training-pipeline software smoke test",
+  "args": {
+    "train_dir": "/mnt/data/RGR_Net_Training_Addition_20261010/fixtures/train/low",
+    "val_dir": "/mnt/data/RGR_Net_Training_Addition_20261010/fixtures/val/low",
+    "out": "/mnt/data/RGR_Net_Training_Addition_20261010/smoke_evidence/reference_rgr/seed_0",
+    "seed": 0,
+    "epochs": 1,
+    "batch_size": 2,
+    "crop": 32,
+    "width": 8,
+    "lr": 0.0001,
+    "max_batches": 2,
+    "device": "cpu",
+    "variant": "reference_rgr",
+    "no_spatial_target": false,
+    "no_structure_loss": false,
+    "no_consistency": false,
+    "no_q": false,
+    "shared_gates": false
+  },
+  "train_files": [
+    "fixture_train_00.png",
+    "fixture_train_01.png",
+    "fixture_train_02.png",
+    "fixture_train_03.png",
+    "fixture_train_04.png",
+    "fixture_train_05.png"
+  ],
+  "val_files": [
+    "fixture_val_00.png",
+    "fixture_val_01.png",
+    "fixture_val_02.png",
+    "fixture_val_03.png"
+  ],
+  "pytorch": "2.10.0+cpu",
+  "python": "3.13.5",
+  "parameter_count": 3018,
+  "best_unsup_validation_loss": 0.34254004061222076,
+  "wall_seconds": 0.0729657070000087,
+  "status": "completed"
+}

@@ -1,0 +1,9 @@
+{
+  "jobs": 1,
+  "executed": true,
+  "distinct_cells": 1,
+  "seeds": [
+    0
+  ],
+  "model_provenance": "independent research reconstruction; not original RGR-Net"
+}

@@ -1,0 +1,1 @@
+method,variant,checkpoint_sha256,input_height,input_width,batch_size,device,precision,software,warmup_count,timing_count,latency_median_ms,latency_p95_ms,peak_memory_mb

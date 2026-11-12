@@ -1,0 +1,55 @@
+project: RoadGuard-Retinex
+status: source-grounded-skeleton-only
+random_seeds: [0, 1, 2, 3, 4]
+input:
+  normalized_range: [0, 1]
+  train_crop_hw: [256, 256]
+  timing_hw: [[256,256], [400,600]]
+descriptors:
+  exposure_mean_window: [16,16]
+  shadow_threshold: 0.15
+  glare:
+    hsv_value_min: 0.85
+    hsv_saturation_max: 0.35
+    dilation_window: [3,3]
+  noise:
+    laplacian_window: [3,3]
+    mad_window: [5,5]
+    percentile: 95
+  structure:
+    operator: Scharr
+    percentile: 95
+  reliability_q:
+    formula: null  # REQUIRED: recover exact code; do not invent
+    coefficients: null
+gates:
+  illumination_features: [E,G,Q,S]
+  denoising_features: [N,one_minus_Q,S,G]
+  temperature: 0.10
+  generator_kernel: [1,1]
+  initialization: null
+training:
+  optimizer: Adam
+  schedule: cosine_decay
+  learning_rate: null
+  batch_size: null
+  epochs: null
+  validation_split_manifest: null
+  checkpoint_criterion: null
+  layers: null
+loss_weights:
+  color: 0.05
+  noise: 0.30
+  structure: 0.15
+  perturbation_consistency: 0.05
+  u1_perceptual_addition: 0.05
+  u2_boundary_addition: 0.10
+  remaining_weights: null
+hardware:
+  warmup_iterations: 200
+  timing_iterations: 1000
+  batch_size: 1
+  device: null
+  software_versions: null
+  precision: null
+  synchronisation_rule: null

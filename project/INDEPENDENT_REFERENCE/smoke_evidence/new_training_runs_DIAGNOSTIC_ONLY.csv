@@ -1,0 +1,11 @@
+model,seed,train_mode,train_images,val_images,unsup_val_loss,checkpoint,params
+reference_rgr,0,artificial diagnostic smoke only,6,4,0.342540041,reference_rgr/seed_0/best_checkpoint.pt,3018
+reference_rgr,1,artificial diagnostic smoke only,6,4,0.328256473,reference_rgr/seed_1/best_checkpoint.pt,3018
+reference_rgr,2,artificial diagnostic smoke only,6,4,0.327861279,reference_rgr/seed_2/best_checkpoint.pt,3018
+reference_rgr,3,artificial diagnostic smoke only,6,4,0.332897156,reference_rgr/seed_3/best_checkpoint.pt,3018
+reference_rgr,4,artificial diagnostic smoke only,6,4,0.35305877,reference_rgr/seed_4/best_checkpoint.pt,3018
+reference_shared_proxy,0,artificial diagnostic smoke only,6,4,0.346327379,reference_shared_proxy/seed_0/best_checkpoint.pt,3013
+reference_shared_proxy,1,artificial diagnostic smoke only,6,4,0.324836746,reference_shared_proxy/seed_1/best_checkpoint.pt,3013
+reference_shared_proxy,2,artificial diagnostic smoke only,6,4,0.322806552,reference_shared_proxy/seed_2/best_checkpoint.pt,3013
+reference_shared_proxy,3,artificial diagnostic smoke only,6,4,0.319946304,reference_shared_proxy/seed_3/best_checkpoint.pt,3013
+reference_shared_proxy,4,artificial diagnostic smoke only,6,4,0.339669183,reference_shared_proxy/seed_4/best_checkpoint.pt,3013

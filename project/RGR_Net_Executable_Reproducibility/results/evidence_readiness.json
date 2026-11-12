@@ -1,0 +1,63 @@
+{
+  "status": "ORIGINAL_EVIDENCE_REQUIRED",
+  "checks": {
+    "image_manifest": {
+      "pass": false,
+      "issues": [
+        "Populate manifests/image_ids.csv with real images and references."
+      ]
+    },
+    "rgr_udcn_matched": {
+      "pass": false,
+      "issues": [
+        "No observed run records: runs/matched_baseline_seed_metrics.csv"
+      ],
+      "rows": 0
+    },
+    "factorial_16x5": {
+      "pass": false,
+      "issues": [
+        "Missing 80 independently trained 16-cell \u00d7 five-seed records"
+      ],
+      "rows": 0
+    },
+    "two_recent_decoupled_baselines": {
+      "pass": false,
+      "issues": [
+        "No observed run records: runs/recent_decoupled_seed_metrics.csv"
+      ],
+      "rows": 0
+    },
+    "frozen_detector_outputs": {
+      "pass": false,
+      "rows": 0,
+      "issues": [
+        "Require Raw, UDCN, RGR-Net seed-level results for 0\u20134",
+        "At least 15 frozen-detector seed records required; found 0"
+      ]
+    },
+    "cross_camera_outputs": {
+      "pass": false,
+      "rows": 0,
+      "issues": [
+        "rgr-net: need three distinct source cameras",
+        "udcn: need three distinct source cameras"
+      ]
+    },
+    "checkpoint_registry": {
+      "pass": false,
+      "rows": 0,
+      "issues": [
+        "At least three audited model variants required"
+      ]
+    },
+    "original_model_implementation": {
+      "pass": false,
+      "issues": [
+        "Original author RGR-Net model.py and train.py are not present."
+      ]
+    }
+  },
+  "analyses": {},
+  "warning": "No expected numbers, surrogate checkpoints, or generated test fixtures have been treated as original experiments."
+}

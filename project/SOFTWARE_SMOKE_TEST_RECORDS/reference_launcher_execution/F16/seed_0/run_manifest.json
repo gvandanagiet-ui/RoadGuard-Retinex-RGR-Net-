@@ -1,0 +1,45 @@
+{
+  "architecture_notice": "INDEPENDENT REFERENCE IMPLEMENTATION; NOT ORIGINAL RGR-NET",
+  "evidence_class": "independent reference training\u2014not paper model",
+  "args": {
+    "train_dir": "INDEPENDENT_REFERENCE_NOT_ORIGINAL/fixtures/train/low",
+    "val_dir": "INDEPENDENT_REFERENCE_NOT_ORIGINAL/fixtures/val/low",
+    "out": "/mnt/data/RGR_Net_Submission_Polish_20261109/reference_launcher_execution/F16/seed_0",
+    "seed": 0,
+    "epochs": 1,
+    "batch_size": 2,
+    "crop": 32,
+    "width": 12,
+    "lr": 0.0001,
+    "max_batches": 1,
+    "device": "cpu",
+    "variant": "reference_rgr",
+    "no_illum_gate": false,
+    "no_noise_gate": false,
+    "no_spatial_target": false,
+    "no_structure_loss": false,
+    "no_consistency": false,
+    "no_q": false,
+    "shared_gates": false
+  },
+  "train_files": [
+    "fixture_train_00.png",
+    "fixture_train_01.png",
+    "fixture_train_02.png",
+    "fixture_train_03.png",
+    "fixture_train_04.png",
+    "fixture_train_05.png"
+  ],
+  "val_files": [
+    "fixture_val_00.png",
+    "fixture_val_01.png",
+    "fixture_val_02.png",
+    "fixture_val_03.png"
+  ],
+  "pytorch": "2.10.0+cpu",
+  "python": "3.13.5",
+  "parameter_count": 5814,
+  "best_unsup_validation_loss": 0.32468390464782715,
+  "wall_seconds": 0.14942669500010197,
+  "status": "completed"
+}
